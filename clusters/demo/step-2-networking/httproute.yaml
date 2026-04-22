@@ -7,8 +7,6 @@ spec:
   parentRefs:
     - name: webinar-gateway
   hostnames:
-    # Replace METALLB_IP with the Gateway's external IP after deployment
-    # e.g. podinfo.10.0.0.100.sslip.io
     - "podinfo.10.8.49.61.sslip.io"
   rules:
     - matches:
