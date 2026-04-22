@@ -9,11 +9,12 @@ kind: Pod
 metadata:
   name: bad-app
   namespace: webinar-demo
-  labels:
-    app: bad-app
+  #labels:
+  #  app: bad-app
 spec:
   containers:
     - name: nginx
       image: nginx:latest
+      #image: nginx:1.29.8
       ports:
         - containerPort: 80
