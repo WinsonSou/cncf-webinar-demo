@@ -6,11 +6,11 @@ metadata:
 spec:
   dependsOn:
     - name: step-2-networking
-  interval: 5m
+  interval: 10s
   path: ./clusters/demo/step-3-security
   prune: true
   sourceRef:
     kind: GitRepository
     name: cncf-webinar-demo
   wait: true
-  timeout: 5m
+  timeout: 10s

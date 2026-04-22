@@ -4,11 +4,11 @@ metadata:
   name: step-1-app
   namespace: kommander-flux
 spec:
-  interval: 5m
+  interval: 10s
   path: ./clusters/demo/step-1-app
   prune: true
   sourceRef:
     kind: GitRepository
     name: cncf-webinar-demo
   wait: true
-  timeout: 5m
+  timeout: 10s

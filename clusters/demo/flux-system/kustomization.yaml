@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - step-1-app.yaml
   - step-2-networking.yaml
-#  - step-3-security.yaml
-#  - step-4-storage.yaml
+  - step-3-security.yaml
+  - step-4-storage.yaml
