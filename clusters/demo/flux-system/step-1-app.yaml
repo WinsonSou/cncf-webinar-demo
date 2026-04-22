@@ -9,6 +9,6 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: cncf-webinar
+    name: cncf-webinar-demo
   wait: true
   timeout: 5m

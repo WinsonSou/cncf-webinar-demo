@@ -4,7 +4,7 @@ metadata:
   name: cncf-webinar-demo
   namespace: kommander-flux
 spec:
-  interval: 1m
+  interval: 10s
   url: https://github.com/WinsonSou/cncf-webinar-demo
   ref:
     branch: main
@@ -15,7 +15,7 @@ metadata:
   name: cncf-webinar-demo
   namespace: kommander-flux
 spec:
-  interval: 5m
+  interval: 10s
   path: ./clusters/demo/flux-system
   prune: true
   sourceRef:
